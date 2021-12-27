@@ -1,4 +1,4 @@
-## kapok-admin 木棉云微中台系统
+## kapok-admin 木棉云中台系统
 
 - kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务中台系统
 
