@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package scrm;
+
+//请求的api
+message ScrmConfigReq {
+  int64 beid=1;
+}
+
+//返回的值
+message ScrmConfigResp {
+  int64 beid=1;
+}
+
+service Scrm {
+  rpc GetScrmConfig(ScrmConfigReq) returns(ScrmConfigResp);
+}

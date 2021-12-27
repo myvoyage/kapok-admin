@@ -22,7 +22,7 @@
     │   └── staging
     ├── infra                           // 基础设施
     │   ├── alpha
-    │   └── tool
+    │   └── kapok
     ├── service                         // 服务模块
     │    ├── addons                     // 业务服务: 根据业务切分
     │    ├── basic                      // 系统服务&基础服务: 系统公共服务模块&常规模块，如SMS、CDN

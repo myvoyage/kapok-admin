@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package cms;
+
+//请求的api
+message CmsConfigReq {
+  int64 beid=1;
+}
+
+//返回的值
+message CmsConfigResp {
+  int64 beid=1;
+}
+
+service Cms {
+  rpc GetCmsConfig(CmsConfigReq) returns(CmsConfigResp);
+}

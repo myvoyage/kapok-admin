@@ -1,7 +1,9 @@
 goctl rpc proto -src proto/basic/user.proto -dir ../basic/user -style GoZero
-
 goctl rpc proto -src proto/basic/common.proto -dir ../basic/common -style GoZero
 
+
+goctl rpc proto -src proto/addons/cms.proto -dir ../addons/cms -style GoZero
+goctl rpc proto -src proto/addons/scrm.proto -dir ../addons/scrm -style GoZero
 
 addons              业务服务
     cms             内容服务
