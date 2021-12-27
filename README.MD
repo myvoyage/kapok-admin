@@ -1,7 +1,17 @@
-## kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务Go后台系统
-kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务后台系统。
+## kapok-admin 木棉云微中台系统
 
-## 目录结构简略说明: 对整体目录的 quick look.
+- kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务中台系统
+
+- 木棉花，（kapok）广州市、高雄市、崇左市以及攀枝花市的市花。花掉落后，树下落英缤纷，花不褪色、不萎靡，很英雄地道别尘世。因为它开得红艳但又不媚俗，它的壮硕的躯干，顶天立地的姿态，英雄般的壮观，花瓣的颜色红得犹如壮士的风骨，色彩就像英雄的鲜血染红了树梢。作者毕业之际，曾于广州工作一年有余辗转他方，喜之岭南羊城，故此以（kapok）英雄之寓将此系统命名为：kapok-admin，系统源码均可商业使用。
+
+- fastadmin是一款非常好的系统，因此作者参考fastadmin系统设计思想，后期将陆陆续续完善kapok-admin。
+
+- 系统架构选用Go-Zero，Go-Zero由万俊峰老师所写，集成了各种工程实践的 web 和 rpc 框架。通过弹性设计保障了大并发服务端的稳定性，经受了充分的实战检验。具体参考：https://go-zero.dev/cn/
+
+- 如有侵权行为，请及时连续作者：hehui199135@126.com
+
+
+## 目录结构简略说明: 
     .
     ├── apps                            // 网关入口:
     │   ├── kapok.api
@@ -27,6 +37,10 @@ kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务后台系统
     │        └── readme.md
     ├── Makefile
     └── README.MD
+
+## 开发日志
+
+- [2021.12.27]  项目立项
 
 ## 主要特性
 

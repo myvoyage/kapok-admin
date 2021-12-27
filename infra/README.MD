@@ -1,0 +1,1 @@
+kapok 基础函数，同步至https://pkg.go.dev
