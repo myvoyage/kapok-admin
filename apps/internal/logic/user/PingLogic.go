@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/tal-tech/go-zero/core/logx"
-	"kapok/kapok-admin/apps/internal/svc"
+	"kapok-admin/apps/internal/svc"
 )
 
 type PingLogic struct {

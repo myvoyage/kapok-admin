@@ -6,7 +6,7 @@ package userclient
 import (
 	"context"
 
-	"kapok/kapok-admin/service/basic/user/user"
+	"kapok-admin/service/basic/user/user"
 
 	"github.com/tal-tech/go-zero/zrpc"
 	"google.golang.org/grpc"

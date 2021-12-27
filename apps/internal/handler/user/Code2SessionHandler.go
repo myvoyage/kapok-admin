@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/tal-tech/go-zero/rest/httpx"
-	"kapok/kapok-admin/apps/internal/logic/user"
-	"kapok/kapok-admin/apps/internal/svc"
+	"kapok-admin/apps/internal/logic/user"
+	"kapok-admin/apps/internal/svc"
 )
 
 func Code2SessionHandler(ctx *svc.ServiceContext) http.HandlerFunc {

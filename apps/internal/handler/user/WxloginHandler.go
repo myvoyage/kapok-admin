@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/tal-tech/go-zero/rest/httpx"
-	"kapok/kapok-admin/apps/internal/logic/user"
-	"kapok/kapok-admin/apps/internal/svc"
-	"kapok/kapok-admin/apps/internal/types"
+	"kapok-admin/apps/internal/logic/user"
+	"kapok-admin/apps/internal/svc"
+	"kapok-admin/apps/internal/types"
 )
 
 func WxloginHandler(ctx *svc.ServiceContext) http.HandlerFunc {

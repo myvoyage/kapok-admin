@@ -6,7 +6,7 @@ package commonclient
 import (
 	"context"
 
-	"kapok/kapok-admin/service/basic/common/common"
+	"kapok-admin/service/basic/common/common"
 
 	"github.com/tal-tech/go-zero/zrpc"
 	"google.golang.org/grpc"

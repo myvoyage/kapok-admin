@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"kapok/kapok-admin/service/basic/user/internal/logic"
-	"kapok/kapok-admin/service/basic/user/internal/svc"
-	"kapok/kapok-admin/service/basic/user/user"
+	"kapok-admin/service/basic/user/internal/logic"
+	"kapok-admin/service/basic/user/internal/svc"
+	"kapok-admin/service/basic/user/user"
 )
 
 type UserServer struct {

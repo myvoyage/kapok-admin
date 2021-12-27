@@ -4,9 +4,9 @@ package handler
 import (
 	"net/http"
 
-	common "kapok/kapok-admin/apps/internal/handler/common"
-	user "kapok/kapok-admin/apps/internal/handler/user"
-	"kapok/kapok-admin/apps/internal/svc"
+	common "kapok-admin/apps/internal/handler/common"
+	user "kapok-admin/apps/internal/handler/user"
+	"kapok-admin/apps/internal/svc"
 
 	"github.com/tal-tech/go-zero/rest"
 )

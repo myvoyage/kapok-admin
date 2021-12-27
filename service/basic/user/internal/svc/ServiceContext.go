@@ -1,6 +1,6 @@
 package svc
 
-import "kapok/kapok-admin/service/basic/user/internal/config"
+import "kapok-admin/service/basic/user/internal/config"
 
 type ServiceContext struct {
 	Config config.Config

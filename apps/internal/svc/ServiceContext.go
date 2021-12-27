@@ -2,8 +2,8 @@ package svc
 
 import (
 	"github.com/tal-tech/go-zero/rest"
-	"kapok/kapok-admin/apps/internal/config"
-	"kapok/kapok-admin/apps/internal/middleware"
+	"kapok-admin/apps/internal/config"
+	"kapok-admin/apps/internal/middleware"
 )
 
 type ServiceContext struct {

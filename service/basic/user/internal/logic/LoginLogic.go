@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"kapok/kapok-admin/service/basic/user/internal/svc"
-	"kapok/kapok-admin/service/basic/user/user"
+	"kapok-admin/service/basic/user/internal/svc"
+	"kapok-admin/service/basic/user/user"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

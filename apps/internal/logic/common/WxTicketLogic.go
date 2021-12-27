@@ -3,8 +3,8 @@ package common
 import (
 	"context"
 
-	"kapok/kapok-admin/apps/internal/svc"
-	"kapok/kapok-admin/apps/internal/types"
+	"kapok-admin/apps/internal/svc"
+	"kapok-admin/apps/internal/types"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )

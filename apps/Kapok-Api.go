@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"kapok/kapok-admin/apps/internal/config"
-	"kapok/kapok-admin/apps/internal/handler"
-	"kapok/kapok-admin/apps/internal/svc"
+	"kapok-admin/apps/internal/config"
+	"kapok-admin/apps/internal/handler"
+	"kapok-admin/apps/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/rest"

@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"kapok/kapok-admin/service/basic/common/common"
-	"kapok/kapok-admin/service/basic/common/internal/config"
-	"kapok/kapok-admin/service/basic/common/internal/server"
-	"kapok/kapok-admin/service/basic/common/internal/svc"
+	"kapok-admin/service/basic/common/common"
+	"kapok-admin/service/basic/common/internal/config"
+	"kapok-admin/service/basic/common/internal/server"
+	"kapok-admin/service/basic/common/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
 	"github.com/tal-tech/go-zero/core/service"
