@@ -1,5 +1,32 @@
-## kapok-admin / 基于Go-zero 微服务 Framework
-kapok-admin是一款基于Go-Zero+Bootstrap的极速后台开发框架。
+## kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务Go后台系统
+kapok-admin是一款基于Go-Zero+Pear-Admin-Layui的极速微服务后台系统。
+
+## 目录结构简略说明: 对整体目录的 quick look.
+    .
+    ├── apps                            // 网关入口:
+    │   ├── kapok.api
+    │   └── std                         // 业务内统一定义
+    ├── assets                          // 静态资源服务
+    ├── deploy                          // 部署脚本, 服务编排
+    │   ├── local
+    │   └── staging
+    ├── infra                           // 基础设施
+    │   ├── alpha
+    │   └── tool
+    ├── service                         // 服务模块
+    │    ├── addons                     // 业务服务: 根据业务切分
+    │    ├── basic                      // 系统服务&基础服务: 系统公共服务模块&常规模块，如SMS、CDN
+    │    │   ├── common                 // 公共服务
+    │    │   └── user                   // 用户服务
+    │    └── std                        // 业务内统一定义
+    │        ├── Makefile
+    │        ├── proto
+    │        │   ├── addons
+    │        │   └── basic
+    │        │       └── user.proto
+    │        └── readme.md
+    ├── Makefile
+    └── README.MD
 
 ## 主要特性
 
